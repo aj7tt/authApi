@@ -7,7 +7,7 @@ from starlette.responses import RedirectResponse
 from app.config import config
 
 #databse
-import app.models.userModel as models
+import app.models.userModel as models #usermodel
 from .config.database import engine
 
 #routing

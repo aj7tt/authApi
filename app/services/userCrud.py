@@ -7,8 +7,7 @@ from fastapi import Depends, Header, HTTPException
 from jose import jwt, JWTError
 from app.config.database import get_db
 
-# Create a CryptContext instance for password hashing
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+# Create a CryptContext instance for password hashing 
 SECRET_KEY = "Aa1$2Bb3*Cc4Dd5Ee6Ff7Gg8Hh9Ii0JjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
  
 
